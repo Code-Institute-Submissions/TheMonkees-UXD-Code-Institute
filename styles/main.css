@@ -1,0 +1,103 @@
+@font-face {
+    font-family:"Caveat";
+    src: url("assets\Fonts\Caveat-Bold.ttf");
+}
+
+/*Header*/
+/*Custom CSS / Bootstrap Overrides */ 
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+#bg-nav-color {
+    background-color: #fff;
+}
+
+div.navbar-header a img {
+    height: 35px; 
+    margin-right: 150px;
+}
+
+ul.nav.navbar-nav li a {
+    font-family: "Caveat", sans-serif;
+    color: #FF0000;
+    font-size: 25px;
+}
+
+ul.nav.navbar-nav li a:hover {
+    color: rgb(209, 43, 43);
+}
+
+a.navbar-brand {
+    padding: 8px 15px;
+}
+
+
+
+/*Footer/
+/*Custom CSS*/
+
+.social-heading {
+    font-family: "Caveat", sans-serif;
+    color: #FF0000;
+    display: block;
+    font-size: 35px;
+    position: relative;
+    background-color: #fff;
+    z-index: 3;
+    width: 50%;
+    margin-left: 25%;
+}
+
+span.sectionnew {
+    border-top: 3px solid #c7c7c7;
+    display: block;
+    height: 1px;
+    position: relative;
+    top: 33px;
+    width: 90%;
+    margin: auto;
+}
+
+.list-style {
+    padding: 0;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.list-style li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.list-style li a {
+    text-decoration: none;
+}
+
+.list-style li a i {
+    font-size: 15pt;
+    width: 40px;
+    height: 40px;
+    padding-top: 16px;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 7px; 
+    text-align: center; 
+    color: #fafafa;
+    background-color: #FF0000;
+}
+
+.footer-logo a img {
+    display:inline-block;
+    height: 150px;
+    margin-left: 25%;
+}
+
+.list-style li a i:hover {
+    background-color: rgb(255, 60, 60);
+    color: #cecece;
+}
