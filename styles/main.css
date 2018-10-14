@@ -39,6 +39,10 @@ a.navbar-brand {
 /*Footer/
 /*Custom CSS*/
 
+footer {
+    margin-top: 75px;
+}
+
 .social-heading {
     font-family: "Caveat", sans-serif;
     color: #FF0000;
@@ -48,7 +52,8 @@ a.navbar-brand {
     background-color: #fff;
     z-index: 3;
     width: 50%;
-    margin-left: 25%;
+    margin:0 auto;
+    margin-bottom: 20px;
 }
 
 span.sectionnew {
@@ -56,8 +61,8 @@ span.sectionnew {
     display: block;
     height: 1px;
     position: relative;
-    top: 33px;
-    width: 90%;
+    top: 23px;
+    width: 100%;
     margin: auto;
 }
 
@@ -95,9 +100,17 @@ span.sectionnew {
     display:inline-block;
     height: 150px;
     margin-left: 25%;
+    margin-top: 40px; 
 }
 
 .list-style li a i:hover {
     background-color: rgb(255, 60, 60);
     color: #cecece;
+}
+
+/*Can be applied to any page*/
+
+.text-style {
+    font-family: "Caveat", sans-serif;
+    color: #FF0000;
 }
