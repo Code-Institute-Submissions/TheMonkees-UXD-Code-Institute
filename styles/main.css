@@ -111,7 +111,6 @@ span.sectionnew {
 
 /*Can be applied to any page*/
 
-.text-style {
-    font-family: "Caveat", sans-serif;
-    color: #FF0000;
+.text-center {
+    text-align: center;
 }

@@ -1,0 +1,78 @@
+/*Music Video*/
+
+video {
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/*Music Links*/
+
+.music-video {
+    margin-top: 25px;
+}
+
+.music-links {
+    margin-top: 25px;
+}
+
+.music-links label {
+    display: block;
+    text-align: center;
+}
+
+.audio {
+    width: 300px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 10%;
+}
+
+/*Images*/
+
+.album-cover-section {
+    margin-top: 50px;
+}
+
+img.album-cover {
+    width: 150px;
+    margin: 10px 5px 10px 5px;
+}
+
+/*Media Queries*/
+
+@media (min-width: 576px) {
+    .audio {
+        margin-left: 22%;
+    }
+
+    img.album-cover {
+        width: 175px;
+    }
+}
+
+@media (min-width: 768px) {
+    .audio {
+        margin-left: 28%;
+    }
+
+    img.album-cover {
+        width: 260px;
+    }
+}
+
+@media (min-width: 992px) {
+    .audio {
+        margin-left: 15%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .audio {
+        margin-left: 22%;
+    }
+
+    img.album-cover {
+        width: 300px;
+    }
+}
