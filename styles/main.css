@@ -97,10 +97,13 @@ span.sectionnew {
     background-color: #FF0000;
 }
 
+.footer-logo {
+    text-align: center;
+}
+
 .footer-logo a img {
     display:inline-block;
     height: 150px;
-    margin-left: 25%;
     margin-top: 40px; 
 }
 
@@ -113,4 +116,9 @@ span.sectionnew {
 
 .text-center {
     text-align: center;
+}
+
+.text-style {
+    font-family: "Caveat", sans-serif;
+    color: #FF0000;
 }

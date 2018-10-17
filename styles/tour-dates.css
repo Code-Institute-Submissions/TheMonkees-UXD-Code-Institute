@@ -1,0 +1,33 @@
+/*Main Tour Dates*/
+
+div.main-tour-dates {
+    margin-top: 25px;
+    border: 1px solid #dddddde8;
+    border-radius: 10px;
+}
+
+/*New/Sold Out Tour Dates*/
+
+div.new-sold-tour-dates {
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+table {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 35px; 
+}
+
+table tr {
+    text-align: center;
+}
+
+table tr th {
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+}
+
