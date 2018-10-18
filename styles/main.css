@@ -1,6 +1,11 @@
 @font-face {
-    font-family:"Caveat";
+    font-family: "Caveat";
     src: url("assets\Fonts\Caveat-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("assets/Fonts/Roboto-Medium.ttf");
 }
 
 /*Header*/
@@ -121,4 +126,8 @@ span.sectionnew {
 .text-style {
     font-family: "Caveat", sans-serif;
     color: #FF0000;
+}
+
+.main-text {
+    font-family: "Roboto", sans-serif;
 }

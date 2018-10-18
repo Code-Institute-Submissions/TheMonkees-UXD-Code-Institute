@@ -1,0 +1,18 @@
+.news-section {
+        
+}
+
+.news-section-right {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.btn {
+    border: 1px solid #7a7a7a;
+    border-radius: 25px;
+    color: #fff;
+    background-color: rgb(255, 60, 60);
+}
