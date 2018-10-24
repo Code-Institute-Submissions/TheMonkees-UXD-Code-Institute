@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("assets/Fonts/Roboto-Medium.ttf");
+}
+
+/*General / Useable over the page*/
+
+a.btn-style {
+    color: #ff0000;
+    border: 2px solid #ff0000;
+    border-radius: 40px;
+    background-color: #fff;
+    font-size: 20px;
+    height: 50px;
+    width:  175px; 
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+a.btn-style:hover {
+    background-color: #ff0000;
+    color: #fff;
+    transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+}
+
+.article-section {
+    margin-top: 50px;
+}
+
+p.article-desc {
+    font-family: "Roboto", sans-serif;
+}
+
+/*Music*/
+
+.badge-success {
+    background-color: #468847;
+}
+
+.audio {
+    margin: 10px 0 20px 0;
+}
+
+/*Music Video*/
+
+video {
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+/*Tour Dates*/
+
+table {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 35px; 
+}
+
+table tr {
+    text-align: center;
+}
+
+table tr th {
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+}
+
+td a.buy-tickets {
+    text-decoration: none;
+    font-size: 13px;
+    color: #ff0000;
+    text-transform: uppercase;
+}
+
+td a.buy-tickets:hover {
+    color: #fa5454;
+}
+
+/*Latest News*/
+
+.news-article {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
