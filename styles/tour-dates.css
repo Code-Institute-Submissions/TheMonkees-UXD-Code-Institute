@@ -1,16 +1,19 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("assets/Fonts/Roboto-Medium.ttf");
+}
+
 /*Main Tour Dates*/
 
 div.main-tour-dates {
     margin-top: 25px;
-    border: 1px solid #dddddde8;
-    border-radius: 10px;
+    margin-right: 50px;
 }
 
 /*New/Sold Out Tour Dates*/
 
 div.new-sold-tour-dates {
     margin-top: 25px;
-    border-radius: 10px;
 }
 
 table {
@@ -23,11 +26,28 @@ table tr {
     text-align: center;
 }
 
+tr td {
+ font-family: "Roboto", sans-serif;
+}
+
 table tr th {
     text-align: center;
 }
 
 th, td {
-    padding: 10px;
+    padding: 20px;
 }
+
+a.buy-tickets {
+    text-decoration: none;
+    font-size: 13px;
+    color: #ff0000;
+    text-transform: uppercase;
+}
+
+a.buy-tickets:hover {
+    color: #fa5454;
+}
+
+
 
