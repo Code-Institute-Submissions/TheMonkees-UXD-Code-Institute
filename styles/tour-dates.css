@@ -10,6 +10,10 @@ div.main-tour-dates {
     margin-right: 50px;
 }
 
+div.main-tour-dates h2 {
+    width: 60%;
+}
+
 /*New/Sold Out Tour Dates*/
 
 div.new-sold-tour-dates {
