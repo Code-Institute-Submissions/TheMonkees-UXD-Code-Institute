@@ -2,6 +2,7 @@
 
 The Monkees is a 1960s band that is still touring today, with over 50 years of experience in the music industry and performing live shows. The Monkees now wish to establish an online presence to promote their music, social media and the option to book The Monkees to perform at a venue.
 
+You can view the website [here](https://msped.github.io/TheMonkees-UXD-Code-Institute/) using GitHub pages.
 ## UX
 
 The website is to be used by new fans and established fans. 
@@ -59,6 +60,9 @@ Initial Wireframes for the site:
 ## Testing
 
 
+For testing the website on multiple browsers I used []()
+
+For testing on mobile I used a Google Chrome Extension called [Window Resizer] to reize Google Chrome Window to various devices.(https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en)
 ## Depolyment
 
 Here's how I run my code locally:
