@@ -45,7 +45,7 @@ p.article-desc {
     margin-left: 7px;
 }
 
-.article-section div.text-center a {
+.article-section div.text-center a.listen-more {
     
 }
 
@@ -91,6 +91,7 @@ td a.buy-tickets {
     font-size: 13px;
     color: #ff0000;
     text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
 }
 
 td a.buy-tickets:hover {

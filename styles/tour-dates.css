@@ -47,6 +47,7 @@ a.buy-tickets {
     font-size: 13px;
     color: #ff0000;
     text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
 }
 
 a.buy-tickets:hover {
