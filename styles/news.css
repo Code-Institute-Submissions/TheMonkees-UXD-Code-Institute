@@ -13,6 +13,7 @@ ul {
 .btn {
     border: 1px solid #ff0000;
     border-radius: 30px;
+    font-size: 20px;
     color: #ff0000;
     background-color:#fff;
 }
@@ -20,8 +21,11 @@ ul {
 .btn:hover {
     background-color: #ff0000;
     color:#fff;
+    transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
 }
 
-.text-style {
-    font-size: 17px;
+h2 .text-style {
+    font-size: 30px;
 }
