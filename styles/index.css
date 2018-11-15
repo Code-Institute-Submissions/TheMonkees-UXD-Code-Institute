@@ -1,8 +1,8 @@
 @font-face {
     font-family: "Roboto";
-    src: url("assets/Fonts/Roboto-Medium-webfont.woff");
+    src: url("assets/Fonts/Roboto-Medium-webfont.woff") format('woff'),
+    url("Roboto-Medium.ttf") format("ttf");
 }
-
 /*General / Useable over the page*/
 
 a.btn-style {

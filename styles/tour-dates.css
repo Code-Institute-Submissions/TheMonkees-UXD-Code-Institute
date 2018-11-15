@@ -1,6 +1,7 @@
 @font-face {
     font-family: "Roboto";
-    src: url("assets/Fonts/Roboto-Medium-webfont.woff");
+    src: url("../assets/Fonts/Roboto-Medium-webfont.woff"),
+    url("../assets/Fonts/roboto-condensed-webfont.eot"), url("../assets/Fonts/Roboto-Medium.ttf"); 
 }
 
 /*Main Tour Dates*/
