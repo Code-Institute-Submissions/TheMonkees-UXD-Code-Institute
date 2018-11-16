@@ -10,13 +10,14 @@ a.btn-style {
     border: 2px solid #ff0000;
     border-radius: 40px;
     background-color: #fff;
-    font-size: 20px;
+    font-size: 25px;
     height: 50px;
     width:  175px; 
     margin: 0 auto;
     margin-top: 15px;
     padding: 5px 15px;
     text-decoration: none;
+    display: block;
 }
 
 a.btn-style:hover {
@@ -41,6 +42,10 @@ p.article-desc {
     margin-left: 7px;
 }
 
+label {
+   display: block; 
+}
+
 .badge-success {
     background-color: #468847;
 }
@@ -55,8 +60,6 @@ video {
     object-fit: cover;
     border-radius: 10px;
 }
-
-
 
 /*Tour Dates*/
 
@@ -104,11 +107,18 @@ td a.buy-tickets:hover {
     border-radius: 65px;
 }
 
+
+
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
     .article-section img {
         margin-left: 105px;
         border-radius: 65px;
+    }
+    
+    a.btn-style {
+        
+        display: default;
     }
 }
 
