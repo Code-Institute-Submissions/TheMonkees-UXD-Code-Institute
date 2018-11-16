@@ -3,6 +3,7 @@
 The Monkees is a 1960s band that is still touring today, with over 50 years of experience in the music industry and performing live shows. The Monkees now wish to establish an online presence to promote their music, social media and the option to book The Monkees to perform at a venue.
 
 You can view the website [here](https://msped.github.io/TheMonkees-UXD-Code-Institute/) using GitHub pages.
+
 ## UX
 
 The website is to be used by new fans and established fans. 
@@ -59,16 +60,33 @@ Initial Wireframes for the site:
 
 ## Testing
 
+Below is testing conducted on the website.
 
-For testing the website on multiple browsers I used []()
+- Testing the Booking form
+    1. Click on 'Booking' in the navigation bar.
+    2. First I clicked the 'Send Request' button - As expected, no request was sent as no information was filled in.
+    3. After filling in the form I clicked the 'Send Request' button again, this time the submission was successful. This is noted by the information appearing in the URL. 
+    4. As a further measure I filled out the form but then removed the @ symbol from the e-mail address. As expected the form failed to sumbit due to incorrect formatting of the e-mail address.
 
-For testing on mobile I used a Google Chrome Extension called [Window Resizer] to reize Google Chrome Window to various devices.(https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en)
+- Issues discovered while testing and how they were rectified.
+
+    1. Issues number one was that on Microsft Edge jQuery script wasn't being pulled through due to the link not using a secure https connection from the jQuery CDN. Since jQuery was loading in, in a mobile view the button to use toggle the navigation wasn't working. The issue was rectified by using Googles jQuery API.
+    
+    2. Issue number two was on Microsoft Edge and Github Pages for other users the font Caevet wasn't loading in. After checking the main.css file I found that the `@font-face` source was looking at a different folder so therefore wasn't loading in and given a 404 error in the console. This was rectified by inputting the correct file path `../assets/Fonts/Caveat-Regular.ttf`
+
+For testing the responsive aspect of the website I used a Google Chrome Extension called [Window Resizer](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en) to resize the  Google Chrome Window to various device sizes.
+
+This website is currently viewable with no deployment issues in:
+
+- Google Chrome
+- Edge/IE
+
+[Visual Studio Code](https://code.visualstudio.com/) was the editor that I used in the coding of the website. While using Visual Studio Code I used an extension pack called LiveServer to run the website on my local machine for testing.
+
+
 ## Depolyment
 
-Here's how I run my code locally:
-
-- [Visual Studio Code](https://code.visualstudio.com/)
-    - Visual Studio Code was used for the coding of the website. It's extension pack LiveServer was used for running previews of the website on my local machine.
+The website was deployed using Github Pages, you can view it [here](https://msped.github.io/TheMonkees-UXD-Code-Institute/). 
 
 ## Credits
 
