@@ -68,6 +68,12 @@ Below is testing conducted on the website.
     3. After filling in the form I clicked the 'Send Request' button again, this time the submission was successful. This is noted by the information appearing in the URL. 
     4. As a further measure I filled out the form but then removed the @ symbol from the e-mail address. As expected the form failed to sumbit due to incorrect formatting of the e-mail address.
 
+- Testing links betweens pages  
+    For this section I tested all of the links between the pages, navigation bar and and links built into the page. Testing all of the links resulted in everything linking to another page in the website working as intended by staying within the tab. 
+
+    All links to which the user is directed to another site opened in a seperate browser tab. These links include social site and the third-party ticket purhcasing site. 
+
+
 - Issues discovered while testing and how they were rectified.
 
     1. Issues number one was that on Microsft Edge jQuery script wasn't being pulled through due to the link not using a secure https connection from the jQuery CDN. Since jQuery was loading in, in a mobile view the button to use toggle the navigation wasn't working. The issue was rectified by using Googles jQuery API.
@@ -100,4 +106,3 @@ The website was deployed using Github Pages, you can view it [here](https://mspe
 
 - The photos, music and music video were obtained from [The Code Institue](https://github.com/Code-Institute-Org/project-assets).
 
-### Acknowledgments
