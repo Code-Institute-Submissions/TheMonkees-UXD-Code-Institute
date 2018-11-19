@@ -82,6 +82,8 @@ Below is testing conducted on the website.
 
 For testing the responsive aspect of the website I used a Google Chrome Extension called [Window Resizer](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en) to resize the  Google Chrome Window to various device sizes.
 
+Validating the code was done with the help of [Freeformatter.com](https://www.freeformatter.com/html-validator.html) and validating of the CSS was done with the help of [W3C CSS Validation Service, Jigsaw](https://jigsaw.w3.org/css-validator/)
+
 This website is currently viewable with no deployment issues in:
 
 - Google Chrome
