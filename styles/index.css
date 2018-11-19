@@ -115,11 +115,6 @@ td a.buy-tickets:hover {
         margin-left: 105px;
         border-radius: 65px;
     }
-    
-    a.btn-style {
-        
-        display: default;
-    }
 }
 
 /*Medium devices (tablets, 768px and up)*/
